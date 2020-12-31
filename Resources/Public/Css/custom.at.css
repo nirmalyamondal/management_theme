@@ -1,0 +1,121 @@
+.green-at-bg { background-color:#4267B2; }
+.green-at-f { color:#4267B2; }
+.logo-icon-white { height:50px; }
+.site-logo-title { font-size:1.25rem; font-weight:bold; color:#fff;}
+.at-slogan { font-size:0.8rem; margin:0; font-weight:normal; color:#fff;}
+.logo-image { text-align:center; padding-bottom: 0.5rem;}
+.twelve-font-size { font-size:12px; }
+.twenty-font-size { font-size:20px; }
+.founty-font-size { font-size:40px; }
+
+/*Menu CSS Begins*/
+.navbar { padding: .5rem 0 0 0; }
+#navbarCollapse { margin-top:25px; }
+.navbar-toggler-icon  {  			
+	background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.nav-item {
+	 font-weight:600;
+    font-size:1rem;
+    letter-spacing:0.125rem;
+    margin:0px 10px;
+    border:1px solid #fff;    
+ }
+.navbar-nav .nav-item:hover, .navbar-nav .active {  
+	text-decoration: none;
+	background-color:#fff ! important;
+}
+.navbar-nav .nav-item a{  
+	color:#fff ! important;
+}
+.navbar-nav .nav-item:hover a, .navbar-nav .active a{  
+	color:#4267B2 ! important;
+}
+.nav-item .nav-link {
+    padding: 0.25rem 1.25rem;
+ }
+/*Menu CSS Ends*/ 
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 75px;
+    right: 0px;
+    display:none;
+}
+
+/*Vertical Tab Pills*/
+.v-pills-uxtab .nav-link, 
+.v-pills-jstab .nav-link,
+.v-pills-servicestab .nav-link,
+.v-pills-phptab .nav-link { 
+	padding-left:15px; 
+}
+.v-pills-uxtab .nav-link:hover, .v-pills-uxtab .nav-link:focus,
+.v-pills-jstab .nav-link:hover, .v-pills-jstab .nav-link:focus,
+.v-pills-servicestab .nav-link:hover, .v-pills-servicestab .nav-link:focus,
+.v-pills-phptab .nav-link:hover, .v-pills-phptab .nav-link:focus { 
+	background-color:#4267B2; 
+	color:#fff; 
+}
+.v-pills-uxtab .nav-link.active, 
+.v-pills-jstab .nav-link.active, 
+.v-pills-servicestab .nav-link.active, 
+.v-pills-phptab .nav-link.active { 
+	background-color:#4267B2; 
+	color:#fff; 
+}
+
+/*Login form design starts*/
+form.login-form { padding-top:15px; }
+form.login-form input.login-up-input{
+	padding: 5px 15px;
+    border: 1px solid #4267B2;
+    border-top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin:0 10px 0px 0px;
+}
+form.login-form input.login-submit,
+form.logout-form input.logout-submit{ 
+    padding: 5px 50px;
+    background-color: #4267B2;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}    
+/*Login form design ends*/
+
+/*Fixing Footer Phone*/
+@media (max-width:960px) {	
+	.logo-text { margin-top:-5px; }
+	.logo-icon-white { height:40px; }
+	.at-slogan { font-size:0.8rem; margin-top: -3px; }
+	.nav-item { letter-spacing: 0; font-size:0.9rem; margin:0px 5px;}
+}
+@media (max-width:866px) {
+	.logo-icon-white { height:40px; }  	
+	.navbar-expand-md .navbar-nav .nav-link {
+   		padding-right: .4rem;
+    	padding-left: .4rem;
+	}
+}
+@media(max-width:768px) {	
+  .pb-3 { padding-bottom:0px ! important; }
+	.pl-4{ padding-left:1rem ! important; }
+	.pr-4{ padding-right:1rem ! important; }
+	.navbar-expand-md .navbar-nav .nav-link {
+   		padding-right: .3rem;
+    	padding-left: .3rem;
+	}
+}
+
+@media only screen and (max-width: 767px)  {
+	.navbar-nav { float:right; }
+	.nav-item { border-radius:0; border:0; }
+	.nav-link { padding-right: 5rem ! important; }
+	.navbar-collapse .nav-link:hover, .navbar-collapse .active {
+	  color:#000 ! important;
+	  text-decoration: none;
+	}
+}

@@ -1,0 +1,2 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Constants/contentConstants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Constants/typo3Constants.txt">

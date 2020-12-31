@@ -1,0 +1,40 @@
+page = PAGE
+page.typeNum = 0
+
+#Page Configuration
+page {
+  shortcutIcon = {$templateImagePath}/favicon.ico
+  config {
+    xmlprologue = none
+    #doctype = xhtml_trans
+    disablePrefixComment = {$disablePrefixComment}
+    #noPageTitle = 2
+    index_enable = 1  
+    cache_clearAtMidnight = 1
+    notification_email_urlmode = 76
+    prefixLocalAnchors = all
+    #additionalHeaders = P3P: CP="CAO COR CURa ADMa DEVa OUR IND ONL COM DEM PRE"
+    doctype(
+        <!DOCTYPE html>
+        <!--[if IE 8 ]><html lang="en-EN" class="no-js lt-ie9"> <![endif]-->
+        <!--[if gt IE 8 ]><![endif]-->
+     )
+  }
+}
+
+page.10 = FLUIDTEMPLATE
+page.10 {
+	layoutRootPath = {$templateHtmlPath}/Layouts/
+  partialRootPath = {$templateHtmlPath}/Partials/
+  file.stdWrap.cObject = CASE
+  file.stdWrap.cObject {
+    1 = TEXT
+    1.value = {$templateHtmlPath}/Templates/PageOneColumn.html
+    2 = TEXT
+    2.value = {$templateHtmlPath}/Templates/PageTwoColumn.html 
+  }
+}
+
+# MetaSEO: Pager Footer
+page.84113002 >
+page.meta >

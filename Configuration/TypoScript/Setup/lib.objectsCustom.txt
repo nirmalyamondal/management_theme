@@ -1,0 +1,18 @@
+lib.menu = HMENU
+lib.menu {
+  1 = TMENU
+  1 {
+    wrap = |
+    expAll = 0
+    noBlur = 1
+    NO = 1
+    NO.wrapItemAndSub = <li class="nav-item rounded">|</li>
+    NO.ATagParams = class="nav-link"
+    ACT = 1
+    ACT.allWrap = <li class="nav-item rounded active">|</li>
+    ACT.ATagParams = class="nav-link"
+  }
+}
+
+lib.content = CONTENT
+lib.content < styles.content.get

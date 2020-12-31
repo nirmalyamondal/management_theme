@@ -1,0 +1,38 @@
+RTE.default.proc {
+    entryHTMLparser_db {
+        tags {
+            p.rmTagIfNoAttrib = 1
+        }
+    }
+}
+
+lib.parseFunc {
+	nonTypoTagStdWrap.encapsLines {
+		nonWrappedTag =
+		innerStdWrap_all.ifBlank =
+	}
+}
+
+lib.parseFunc_RTE {
+	nonTypoTagStdWrap.encapsLines {
+		nonWrappedTag =
+		innerStdWrap_all.ifBlank =
+	}
+}
+
+tt_content.textmedia.dataProcessing.20.maxGalleryWidth = 1920
+tt_content.image.dataProcessing.20.maxGalleryWidth = 1920
+tt_content.textpic.dataProcessing.20.maxGalleryWidth = 1920
+
+settings.parseFunc_RTE {
+  externalBlocks := addToList(ul,li)
+  externalBlocks {
+    ul.stripNL = 1
+    ul.callRecursive = 1
+    ul.callRecursive.tagStdWrap.HTMLparser = 1
+    ul.callRecursive.tagStdWrap.HTMLparser.tags.ul {
+      fixAttrib.class.default = contentList
+    }
+  
+  }
+}

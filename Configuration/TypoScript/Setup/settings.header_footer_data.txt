@@ -1,0 +1,72 @@
+
+page.headerData.1 = TEXT
+page.headerData.1.value (   
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta http-equiv="content-language" content="en-US" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="cache-control" content="public" />
+	<meta http-equiv="pragma" content="cache" />
+	<meta http-equiv="expires" content="0" />	
+
+	<meta name="author" content="Nirmalya Mondal">  
+	<meta name="description" content="Aditya digital electronics at Debra Bazar, Paschim Medinipur" /> 
+	<meta name="keywords" content="Aditya, Debra, Electronics, Mobile, TV, Fridge, Washing Machine, Heater, Service Center" />   
+	<meta name="robots" content="all" />  
+	<meta name="googlebot" content="noarchive" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="{$templateImagePath}/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{$templateImagePath}/favicon/favicon-64x64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{$templateImagePath}/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{$templateImagePath}/favicon/favicon-16x16.png">
+)
+
+page.includeCSS >
+page.includeCSS {
+	1 = {$templateCssPath}/bootstrap.min.4.4.1.css
+	2 = https://use.fontawesome.com/releases/v5.6.3/css/all.css
+	20 = {$templateCssPath}/jquery-ui.css
+  	21 = {$templateCssPath}/theme.blue.css
+  	22 = {$templateCssPath}/jquery.tablesorter.pager.css
+  	33 = {$templateCssPath}/custom.at.css  		
+}
+
+page.includeJS >
+page.includeJSFooterlibs >
+page.includeJSFooter >
+page.includeJSFooter {
+	file1 = {$templateJsPath}/jquery-1.12.4.min.js
+	file2 = {$templateJsPath}/bootstrap.min.4.4.1.js
+    file9 = {$templateJsPath}/jquery-ui.min.js
+    file10 = {$templateJsPath}/jquery.tablesorter.js
+    file11 = {$templateJsPath}/jquery.tablesorter.widgets.js
+    file12 = {$templateJsPath}/jquery.tablesorter.pager.js
+    file13 = {$templateJsPath}/pager-custom-controls.js	
+}
+
+[page["uid"] == {$ticket_pageid}]
+page.includeCSS {
+	59 = typo3conf/ext/management/Resources/Public/Css/management-ticket.css
+}
+page.includeJSFooter {
+	file59 = typo3conf/ext/management/Resources/Public/Js/management-ticket.js
+}
+[global]
+
+[page["uid"] == {$product_pageid}]
+page.includeCSS {
+	59 = typo3conf/ext/management/Resources/Public/Css/management-product.css
+}
+page.includeJSFooter {
+	file59 = typo3conf/ext/management/Resources/Public/Js/management-product.js
+}
+[global]
+
+[page["uid"] == {$customer_pageid}]
+page.includeCSS {
+	59 = typo3conf/ext/management/Resources/Public/Css/management-customer.css
+}
+page.includeJSFooter {
+	file59 = typo3conf/ext/management/Resources/Public/Js/management-customer.js
+}
+[global]

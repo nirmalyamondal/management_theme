@@ -1,0 +1,23 @@
+siteBaseurl    = http://www.t9lts.local/
+
+concatenateCss = 0
+compressCss = 0
+concatenateJs = 0
+compressJs = 0
+removeDefaultJS = 0
+removeDefaultCSS = 1
+disableBaseWrap = 0
+disablePrefixComment = 1
+content.defaultHeaderType = 2
+
+styles.content.imgtext {
+	maxW = 1200
+	maxWInText = 0
+	linkWrap.width = 1200
+	responsive = 1 
+}
+
+templateHtmlPath = EXT:management_theme/Resources/Private
+templateCssPath  = EXT:management_theme/Resources/Public/Css
+templateJsPath  = EXT:management_theme/Resources/Public/Js
+templateImagePath  = typo3conf/ext/management_theme/Resources/Public/Images

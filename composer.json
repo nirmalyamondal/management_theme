@@ -1,0 +1,28 @@
+{
+    "name": "ashokatree/management-theme",
+    "type": "typo3-cms-extension",
+    "description": "Frontend Theme of Management.",
+    "authors": [
+        {
+            "name": "Nirmalya Mondal",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ASHOKATREE\\ManagementTheme\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ASHOKATREE\\ManagementTheme\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "ashokatree/management-theme": "self.version",
+        "typo3-ter/management-theme": "self.version"
+    }
+}

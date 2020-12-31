@@ -1,0 +1,14 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/settings.error.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/settings.config.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/settings.parseFunc_RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/settings.removing_image_attributes.txt">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/settings.persistence.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/settings.meta_tag.txt">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/extension.felogin.txt">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/lib.objectsCustom.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/settings.header_footer_data.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/layout.frontend.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:management_theme/Configuration/TypoScript/Setup/layout.backend.txt">

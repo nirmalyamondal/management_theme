@@ -1,0 +1,27 @@
+RTE.default.proc {
+    entryHTMLparser_db {
+        tags {
+            p.rmTagIfNoAttrib = 1
+        }
+    }
+}
+
+lib.parseFunc {
+	nonTypoTagStdWrap.encapsLines {
+		nonWrappedTag =
+		innerStdWrap_all.ifBlank =
+	}
+}
+
+lib.parseFunc_RTE {
+	nonTypoTagStdWrap.encapsLines {
+		nonWrappedTag =
+		innerStdWrap_all.ifBlank =
+	}
+}
+
+tt_content.textmedia.dataProcessing.20.maxGalleryWidth = 1920
+tt_content.image.dataProcessing.20.maxGalleryWidth = 1920
+tt_content.textpic.dataProcessing.20.maxGalleryWidth = 1920
+
+lib.contentElement.settings.defaultHeaderType = {$content.defaultHeaderType}

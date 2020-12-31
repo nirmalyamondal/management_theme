@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Frontend Theme of Ashoka Tree.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 10.4.0-10.9.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "10.4.0-10.9.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "management_theme",
+        "name": "Theme Ashoka Tree",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Ashoka Tree",
+                "email": "nirmalya.mondal@gmail.com",
+                "name": "Nirmalya Mondal",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "ASHOKATREE"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2020-06-25 02:39",
+        "extension_builder_version": "9.10.2",
+        "be_user": " (1)"
+    }
+}

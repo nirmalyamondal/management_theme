@@ -1,0 +1,3 @@
+plugin.tx_felogin_pi1 {
+  templateFile = EXT:management_theme/Resources/Private/Extension/Felogin/FrontendLogin.html
+}

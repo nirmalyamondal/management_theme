@@ -1,0 +1,8 @@
+page {	
+	meta {		
+	keywords.data =  levelfield : -1 , keywords , slide		
+	description.data = levelfield : -1 , description , slide		
+	abstract.field = abstract		
+	robots = index, follow	
+	}
+}

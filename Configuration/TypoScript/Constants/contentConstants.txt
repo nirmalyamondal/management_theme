@@ -1,0 +1,6 @@
+#Page Uid
+homepage_pageid  = 18
+login_pageid  = 18
+ticket_pageid  = 19
+product_pageid  = 21
+customer_pageid  = 20
