@@ -1,5 +1,9 @@
 lib.menu = HMENU
 lib.menu {
+  entryLevel = 1
+  #special = directory
+  #special.value = {$menu_root_pageid}
+  #excludeUidList = {$RESTRICTED_ROOT}, {$HOME_SHORTCUT}
   1 = TMENU
   1 {
     wrap = |

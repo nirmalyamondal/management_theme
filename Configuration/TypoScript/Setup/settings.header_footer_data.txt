@@ -70,3 +70,31 @@ page.includeJSFooter {
 	file59 = typo3conf/ext/management/Resources/Public/Js/management-customer.js
 }
 [global]
+
+
+[page["uid"] == {$ticket_pageid_technician}]
+page.includeCSS {
+	59 = typo3conf/ext/management/Resources/Public/Css/management-ticket.css
+}
+page.includeJSFooter {
+	file59 = typo3conf/ext/management/Resources/Public/Js/management-ticket-technician.js
+}
+[global]
+
+[page["uid"] == {$product_pageid_technician}]
+page.includeCSS {
+	59 = typo3conf/ext/management/Resources/Public/Css/management-product.css
+}
+page.includeJSFooter {
+	file59 = typo3conf/ext/management/Resources/Public/Js/management-product-technician.js
+}
+[global]
+
+[page["uid"] == {$customer_pageid_technician}]
+page.includeCSS {
+	59 = typo3conf/ext/management/Resources/Public/Css/management-customer.css
+}
+page.includeJSFooter {
+	file59 = typo3conf/ext/management/Resources/Public/Js/management-customer-technician.js
+}
+[global]

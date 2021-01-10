@@ -75,6 +75,7 @@ form.login-form input.login-up-input{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin:0 10px 0px 0px;
+    width:270px;
 }
 form.login-form input.login-submit,
 form.logout-form input.logout-submit{ 
@@ -83,6 +84,7 @@ form.logout-form input.logout-submit{
     color: #fff;
     font-weight: 500;
     border: none;
+    width:270px;
 }    
 /*Login form design ends*/
 
