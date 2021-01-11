@@ -2,6 +2,7 @@
     "name": "ashokatree/management-theme",
     "type": "typo3-cms-extension",
     "description": "Frontend Theme of Management.",
+    "version": "11.0.0",
     "authors": [
         {
             "name": "Nirmalya Mondal",
