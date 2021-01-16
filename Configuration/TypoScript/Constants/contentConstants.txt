@@ -1,12 +1,11 @@
 #Page Uid
-homepage_pageid  = 18
-login_pageid  = 18
+homepage_pageid  = 1
+login_pageid  = 1
 
-ticket_pageid  = 19
-product_pageid  = 21
-customer_pageid  = 20
-menu_root_pageid = 34
+ticket_pageid_customer  = 10
+product_pageid_customer  = 9
+customer_pageid_customer  = 8
 
-ticket_pageid_technician  = 35
-product_pageid_technician  = 36
-customer_pageid_technician  = 37
+ticket_pageid_technician  = 14
+product_pageid_technician  = 13
+customer_pageid_technician  = 12

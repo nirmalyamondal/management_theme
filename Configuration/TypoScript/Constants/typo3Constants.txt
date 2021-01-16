@@ -1,4 +1,4 @@
-siteBaseurl    = http://www.t9lts.local/
+siteBaseurl =
 
 concatenateCss = 0
 compressCss = 0

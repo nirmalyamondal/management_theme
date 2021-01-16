@@ -10,8 +10,8 @@ page.headerData.1.value (
 	<meta http-equiv="expires" content="0" />	
 
 	<meta name="author" content="Nirmalya Mondal">  
-	<meta name="description" content="Aditya digital electronics at Debra Bazar, Paschim Medinipur" /> 
-	<meta name="keywords" content="Aditya, Debra, Electronics, Mobile, TV, Fridge, Washing Machine, Heater, Service Center" />   
+	<meta name="description" content="Ashoka Tree customer service portal." /> 
+	<meta name="keywords" content="Ashoka Tree, TYPO3, Flutter, Dart, Mobile Apps, Android, iOS" />   
 	<meta name="robots" content="all" />  
 	<meta name="googlebot" content="noarchive" />
 
@@ -44,7 +44,7 @@ page.includeJSFooter {
     file13 = {$templateJsPath}/pager-custom-controls.js	
 }
 
-[page["uid"] == {$ticket_pageid}]
+[page["uid"] == {$ticket_pageid_customer}]
 page.includeCSS {
 	59 = typo3conf/ext/management/Resources/Public/Css/management-ticket.css
 }
@@ -53,7 +53,7 @@ page.includeJSFooter {
 }
 [global]
 
-[page["uid"] == {$product_pageid}]
+[page["uid"] == {$product_pageid_customer}]
 page.includeCSS {
 	59 = typo3conf/ext/management/Resources/Public/Css/management-product.css
 }
@@ -62,7 +62,7 @@ page.includeJSFooter {
 }
 [global]
 
-[page["uid"] == {$customer_pageid}]
+[page["uid"] == {$customer_pageid_customer}]
 page.includeCSS {
 	59 = typo3conf/ext/management/Resources/Public/Css/management-customer.css
 }
