@@ -1,8 +1,9 @@
-#3plugin.tx_felogin_pi1.templateFile = EXT:management_theme/Resources/Private/Extension/Felogin/FrontendLogin.html
+plugin.tx_felogin_pi1.templateFile = EXT:management_theme/Resources/Private/Extension/Felogin/FrontendLogin.html
 
-plugin.tx_felogin_login {
-  view {
-    templateRootPaths.10 = EXT:management_theme/Resources/Private/Extension/Felogin/Templates/
-    partialRootPaths.10 = EXT:management_theme/Resources/Private/Extension/Felogin/Partials/
-  }
-}
+#TYPO3 v 11
+#plugin.tx_felogin_login {
+#  view {
+#    templateRootPaths.10 = EXT:management_theme/Resources/Private/Extension/Felogin/Templates/
+#    partialRootPaths.10 = EXT:management_theme/Resources/Private/Extension/Felogin/Partials/
+#  }
+#}
