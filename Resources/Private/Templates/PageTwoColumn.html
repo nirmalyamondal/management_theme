@@ -1,77 +1,60 @@
 <f:layout name="Main" />
 <f:section name="Content">
-<span itemprop="image" itemscope itemtype="image/png"> 
-  <link itemprop="url" href="management_theme/Resources/Public/Images/socialmedia/logo_whatsapp_share.png"> 
-</span>
 <!--greenMenuBar Start -->
 <div class="container-fluid fixed-top pl-4 pr-4 green-at-bg">
   <div class="row">
     <div class="col">
-		<nav id="main-nav" class="navbar navbar-expand-md at-site-nav">
-		    <a href="https://ashokatree.net/" class="site-logo-title text-white navbar-brand" title="Ashoka Tree">
-		        <div class="logo-image float-left"><img src="typo3conf/ext/management_theme/Resources/Public/images/atLogo.png" class="img-fluid logo-icon-white"></div>
-		        <div class="logo-text float-left ml-3">
-		        	<span class="site-logo-title">Ashoka Tree</span>
-		          	<p class="at-slogan font-italic" title="Ashoka Tree - Serving Digital Transformation since 2010.">Serving Digital Transformation</p>
-		        </div>
-		    </a>
-		    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-		        <span class="navbar-toggler-icon"></span>
-		    </button>
-		    <div class="collapse navbar-collapse" id="navbarCollapse">
-		    	<ul class="navbar-nav ml-auto">
-		    		<f:cObject typoscriptObjectPath="lib.menu" />
-		    	</ul>
-		    </div>  
-		</nav>
+    <nav id="main-nav" class="navbar navbar-expand-md at-site-nav">
+          <div class="logo-image float-left">
+            <img src="typo3conf/ext/management_theme/Resources/Public/Images/logo.jpg" width="64px" class="img-fluid logo-icon-white">
+          </div>
+          <div class="logo-text float-left ml-3">
+            <span class="site-logo-title">Aditya Digital Electronics</span>
+              <p class="at-slogan font-italic" title="Aditya Digital Electronics">A customer service portal</p>
+          </div>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <f:cObject typoscriptObjectPath="lib.menu" />
+          </ul>
+        </div>  
+    </nav>
     </div>
   </div>
 </div>
 <!--greenMenuBar End-->
 
-<div class="container-fluid pl-4 pr-4 pt-3 mt-5">
+<div class="container-fluid pl-4 pr-4 pt-5">
   <div class="row">
     <div class="col-12">&nbsp;</div>
   </div>
 </div>
 
 <!--contentArea Start-->    
-<div class="container-fluid pl-4 pr-4 pt-3">
-	<div class="row">
-		<div class="col-lg-6"><f:cObject typoscriptObjectPath="lib.content" /></div>
-		<div class="col-lg-6"><f:cObject typoscriptObjectPath="lib.contentRight" /></div>
-	</div>
-</div>	
-<!--contentArea End-->
-
-<!--contactMobileGlobe Start-->
-<div class="container-fluid footer-phone-area pl-4 pr-4 pt-2 border-top border-success">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-lg-6">
-    	<div class="row no-gutters">
-      		<f:cObject typoscriptObjectPath="lib.contentFooterLeft" />
-      	</div>
-    </div>
-    <div class="col-lg-6">
-    	<div class="row no-gutters">
-    		<f:cObject typoscriptObjectPath="lib.contentFooterRight" />
-    	</div>
-    </div>
+    <div class="col-lg-6"><f:cObject typoscriptObjectPath="lib.content" /></div>
+    <div class="col-lg-6"><f:cObject typoscriptObjectPath="lib.contentRight" /></div>
   </div>
 </div>  
-<!--contactMobileGlobe End-->
+<!--contentArea End-->
+
 <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="fas fa-arrow-alt-circle-up"></span></a>
 <div id="gdpr-cookie-message-wrap" class="row d-flex justify-content-center"></div>
 <!--copyrightContent Start-->
-<div class="container-fluid pl-4 pr-4 pb-0 green-at-bg">
+<div class="container-fluid pl-4 pr-4 pb-0 green-at-bg text-white">
   <div class="row">
-    <div class="col-6 text-left small">
-      Powered by <span><i class="fab fa-typo3 typo3-at-f" style="font-size:10px;"></i>&nbsp;<a href="https://typo3.org/" target="_blank" class="text-white small">TYPO3</a></span>
+    <div class="col-4 text-left small">
+      Powered by &nbsp;&nbsp;<i class="fab fa-typo3 typo3-at-f"></i>&nbsp;<a href="https://typo3.org/" target="_blank" class="text-white">TYPO3</a>
     </div>
-    <div class="col-6 text-left">
-      <span class="text-white"><i class="fas fa-copyright"></i>&nbsp;Ashoka Tree</span>
-      <div class="overlay"></div>
-    </div>    
+    <div class="col-4 text-center small">
+      <i class="fas fa-mobile-alt"></i>&nbsp;+91 75 85 87 22 25
+    </div>  
+    <div class="col-4 text-right small">
+      <i class="fas fa-copyright"></i>&nbsp;<a href="https://ashokatree.net/" target="_blank" class="text-white">Ashoka Tree</a>
+    </div>  
   </div>
 </div> 
 <!--copyrightContent End-->
